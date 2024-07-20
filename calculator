@@ -1,0 +1,23 @@
+print ("~~~~~Arithmetic Calculator~~~~~")
+
+num1 = float(input("Enter a number here: "))
+num2 = float(input("Enter another number here: "))
+
+print ("""
+ 1 for addition 
+ 2 for subtraction
+ 3 for multiplication
+ 4 for division""")
+
+choice = int(input("enter a your choice: "))
+
+if choice == 1:
+    print ("the addition of the given two numbers is",num1+num2)
+elif choice == 2:
+    print ("The subtraction of the given two numbers is",num1-num2)
+elif choice == 3:
+    print ("The multiplication of the given two numbers is",num1*num2)
+elif choice == 4:
+    print ("The division of the given two numbers is",num1/num2)
+else:
+    print ("Invalid Input from the User")
